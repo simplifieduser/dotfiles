@@ -1,0 +1,7 @@
+configuration {
+	modi: "drun,run";
+	font: "Source Sans Pro 12";
+	combi-modi: "drun,run";
+}
+
+@theme "CustomTheme.rasi"

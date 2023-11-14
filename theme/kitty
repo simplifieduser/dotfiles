@@ -1,0 +1,46 @@
+# vim:ft=kitty
+
+## name: Campbell
+## author: Microsoft
+## blurb: The default theme of Microsoft's terminals, including Windows Terminal and cmd.
+
+# The basic colors
+foreground                      #ffffff
+background                      #202020
+selection_background            #3584e4
+
+# Cursor colors
+cursor                          #78aeed
+
+# The basic 16 colors
+# black
+color0 #000000
+color8 #77767b
+
+# red
+color1 #f66151
+color9 #a51d2d
+
+# green
+color2  #8ff0a4
+color10 #26a269
+
+# yellow
+color3  #f9f06b
+color11 #e5a50a
+
+# blue
+color4  #cdab8f
+color12 #63453c
+
+# magenta
+color5  #dc8add
+color13 #613583
+
+# cyan
+color6  #99c1f1
+color14 #1a5fb4
+
+# white
+color7  #ffffff
+color15 #9a9996
