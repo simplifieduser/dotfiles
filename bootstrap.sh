@@ -16,7 +16,7 @@ ln ./config/i3 ~/.config/i3/config
 ln ./config/picom ~/.config/picom/picom.conf
 ln ./config/polybar ~/.config/polybar/config.ini
 ln ./config/rofi ~/.config/rofi/config.rasi
-ln ./theme/rofi ~/.config/rofi/CustomTheme.conf
+ln ./theme/rofi ~/.config/rofi/CustomTheme.rasi
 
 mkdir ~/.config/kitty
 
