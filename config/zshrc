@@ -18,3 +18,7 @@ source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+# Export node default package location
+PATH="$HOME/.local/bin:$PATH"
+export npm_config_prefix="$HOME/.local"
