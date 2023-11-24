@@ -246,3 +246,5 @@ for_window [class=".*"] title_format "<span>  %title</span>"
 for_window [class="Gnome-screenshot"] floating enable
 for_window [class="Galculator"] floating enable
 
+# Start fcitx5
+exec --no-startup-id fcitx5
