@@ -1,5 +1,7 @@
 #!/usr/bin/bash
 
+mkdir ~/.config
+
 ln ./config/zshrc ~/.zshrc
 ln ./config/p10k ~/.p10k.zsh
 
@@ -12,6 +14,7 @@ mkdir ~/.config/picom
 mkdir ~/.config/polybar
 mkdir ~/.config/rofi
 
+ln ./config/xsession ~/.xsession
 ln ./config/i3 ~/.config/i3/config 
 ln ./config/picom ~/.config/picom/picom.conf
 ln ./config/polybar ~/.config/polybar/config.ini
