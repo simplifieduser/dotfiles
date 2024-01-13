@@ -1,0 +1,12 @@
+#!/usr/bin/pulseaudio -nF
+
+# Setup audio devices and mirroring
+
+load-module module-alsa-sink device="sysdefault:CARD=V1" sink_name=volt
+load-module module-alsa-sink device="hdmi:CARD=NVidia,DEV=1" sink_name=vr
+load-module module-combine-sink sink_name=combined slaves=volt,vr
+set-default-sink combined
+
+# include default system configuration
+
+.include /etc/pulse/default.pa
